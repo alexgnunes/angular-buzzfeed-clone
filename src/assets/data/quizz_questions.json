@@ -1,55 +1,111 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Que Pokémon você seria?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual característica você mais valoriza?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Força", "alias":"A"},
+        {"id": 2, "name":"Inteligência", "alias":"B"},
+        {"id": 3, "name":"Velocidade", "alias":"C"},
+        {"id": 4, "name":"Amizade", "alias":"D"}
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Como você prefere passar seu tempo livre?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Explorando novos lugares", "alias":"C"},
+        {"id": 2, "name":"Lendo ou estudando", "alias":"B"},
+        {"id": 3, "name":"Treinando fisicamente", "alias":"A"},
+        {"id": 4, "name":"Passando tempo com amigos", "alias":"D"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "O que te motiva mais?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Conquistar desafios", "alias":"A"},
+        {"id": 2, "name":"Resolver problemas complexos", "alias":"B"},
+        {"id": 3, "name":"Ser o mais rápido", "alias":"C"},
+        {"id": 4, "name":"Ajudar os outros", "alias":"D"}
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual destas habilidades você gostaria de ter?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Controle elemental", "alias":"A"},
+        {"id": 2, "name":"Telepatia", "alias":"B"},
+        {"id": 3, "name":"Transformação", "alias":"C"},
+        {"id": 4, "name":"Cura", "alias":"D"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é sua abordagem em relação aos desafios?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Encaro de frente, sem medo", "alias":"A"},
+        {"id": 2, "name":"Analiso e planejo cuidadosamente", "alias":"B"},
+        {"id": 3, "name":"Tento resolver o mais rápido possível", "alias":"C"},
+        {"id": 4, "name":"Junto com meus amigos, como um time", "alias":"D"}
+      ]
+    },
+    {
+      "id":6,
+      "question": "Qual é o seu elemento preferido?",
+      "options":[
+        {"id": 1, "name":"Fogo", "alias":"A"},
+        {"id": 2, "name":"Água", "alias":"B"},
+        {"id": 3, "name":"Terra", "alias":"C"},
+        {"id": 4, "name":"Ar", "alias":"D"}
+      ]
+    },
+    {
+      "id":7,
+      "question": "O que você prefere em uma batalha?",
+      "options":[
+        {"id": 1, "name":"Atacar diretamente", "alias":"A"},
+        {"id": 2, "name":"Defender e contra-atacar", "alias":"B"},
+        {"id": 3, "name":"Atacar rapidamente e recuar", "alias":"C"},
+        {"id": 4, "name":"Usar estratégias táticas", "alias":"D"}
+      ]
+    },
+    {
+      "id":8,
+      "question": "Como você reage sob pressão?",
+      "options":[
+        {"id": 1, "name":"Fico calmo e focado", "alias":"A"},
+        {"id": 2, "name":"Penso rápido e tomo decisões", "alias":"B"},
+        {"id": 3, "name":"Acelero e entro em ação", "alias":"C"},
+        {"id": 4, "name":"Busco apoio dos outros", "alias":"D"}
+      ]
+    },
+    {
+      "id":9,
+      "question": "Qual é sua relação com a natureza?",
+      "options":[
+        {"id": 1, "name":"Gosto de explorar e interagir com ela", "alias":"A"},
+        {"id": 2, "name":"Aprecio sua beleza e tranquilidade", "alias":"B"},
+        {"id": 3, "name":"Me sinto energizado ao ar livre", "alias":"C"},
+        {"id": 4, "name":"Sinto-me conectado com todos os seres vivos", "alias":"D"}
+      ]
+    },
+    {
+      "id":10,
+      "question": "O que você valoriza mais em um parceiro de equipe?",
+      "options":[
+        {"id": 1, "name":"Força bruta", "alias":"A"},
+        {"id": 2, "name":"Inteligência e estratégia", "alias":"B"},
+        {"id": 3, "name":"Agilidade e velocidade", "alias":"C"},
+        {"id": 4, "name":"Lealdade e empatia", "alias":"D"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você seria um Machamp!",
+    "B": "Você seria um Alakazam!",
+    "C": "Você seria um Pikachu!",
+    "D": "Você seria um Charizard!"
   }
 }
